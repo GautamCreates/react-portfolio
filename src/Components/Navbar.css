@@ -1,0 +1,97 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 75rem; */
+    align-items: center;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    height: 4rem;
+    position: fixed;
+    background-color: rgb(40, 40, 40);
+}
+.desktopMenubtn{
+    color: white;
+}
+.logo{
+    object-fit: cover;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+.linksitems,.listsitems{
+    list-style: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.linksinneritems{
+    color: white;
+}
+.linksinneritems:hover{
+    color: yellow;
+    padding-bottom: 0.5 rem;
+    border-bottom: 4px solid yellow;
+    
+}
+
+.desktopMenubtn{
+    height: 45px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: black;
+    z-index: 9;
+    border-radius: 30px;
+    padding: 0 1rem;
+}
+
+.active{
+    color: yellow;
+}
+.Menu{
+    /* display: none; */
+}
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 30px;
+    min-width: 10rem;
+
+}
+.listsinneritems{
+    font-size: 20px;
+    background-color: rgb(30, 30, 30);
+    margin: 0.25rem;
+    padding: 0 2rem;
+    border-radius: 20px;
+    color: white;
+}
+.linksinneritems:hover{
+    border: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      /* background-color: lightblue; */
+      display: none;
+    }
+    .mainNav{
+        justify-content: end;
+        display: flex;
+        align-items: flex-end;
+        
+    }
+    .navMenu {
+
+    }
+  }

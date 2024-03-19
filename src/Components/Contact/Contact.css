@@ -1,0 +1,50 @@
+#contact{
+    /* min-height: calc(100vh- 4rem); */
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contactform{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    height: 2rem;
+    width: 2rem;
+}
+.Instagram{
+    height: 2rem;
+    width: 2rem;
+}
+.Linkedin{
+    height: 2rem;
+    width: 2rem;
+}
+
+.name,.email,.msg{
+    font-size: medium;
+    width: 400px;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+.submitbtn{
+    height: 45px;
+    width: 150px;
+    color: black;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+}

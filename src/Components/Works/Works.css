@@ -1,0 +1,26 @@
+#works{
+    /* min-height: calc(100vh - 4rem); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:  0 1rem;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 600px;
+}
+
+.workstitle
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.WorksDesc{
+    font-size: 1rem;
+    font-weight: 300;
+}
+@media only screen and (max-width: 600px){
+    #works{
+        height: ;
+    }
+}

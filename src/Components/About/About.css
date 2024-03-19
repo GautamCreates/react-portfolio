@@ -1,0 +1,31 @@
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    /* min-height: calc(100vh - 4rem); */
+    /* width: 100vw; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding:  0 1rem;
+    gap: 1rem;
+}
+.header{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.upper{
+    font-size: 20px;
+}
+.word{
+    font-size: 20px;
+    font-weight: 300;
+    color: red;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info{
+    font-size: 20px;
+}
