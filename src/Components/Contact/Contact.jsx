@@ -11,9 +11,10 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
-      .sendForm('service_d3ngsgg', 'template_g7kg5ab', form.current, {
-        publicKey: 'kItkAjnw3do7g3q3LrB8K',
+      .sendForm('service_ik0x9ck', 'template_s408fas', form.current, {
+        publicKey: '0TGK4fXrS5DoUOthF',
       })
       .then(
         () => {
